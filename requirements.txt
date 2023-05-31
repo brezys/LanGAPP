@@ -1,4 +1,3 @@
-customtkinter==5.1.3
 deepl==1.14.0
 docker_py==1.10.6
 elevenlabs==0.2.12
@@ -14,3 +13,4 @@ sounddevice==0.4.6
 soundfile==0.12.1
 SpeechRecognition==3.10.0
 voicevox_client==0.1.5
+
