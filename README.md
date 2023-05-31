@@ -57,7 +57,7 @@ Stay tuned for updates as LanGAPP progresses towards providing a powerful and ac
 2nd - Navigate to your 'Profile Settings' by clicking on your profile picture and then copy your API-Key (highlighted in blue)
 ![image](https://github.com/brezys/LanGAPP/assets/108705036/dff6ea7c-c3d7-4183-ac06-efca3293173a)
 
-3rd - Go into the 'myenv.env' file and change the 'ELEVENLAB_API_KEY=' and after the '=' paste your API-Key directly after the '=' *no space*
+3rd - Go into the 'myenv.env' file and change the 'ELEVENLAB_API_KEY=' and after the '=' paste your API-Key directly after the '=' *with no space*
 
 ### DEEPL API Key
 1st - Make a free account on DEEPL to gain access to their DEEPL REST API: https://www.deepl.com/en/account/
