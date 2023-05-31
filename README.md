@@ -19,7 +19,7 @@ Contributions and feedback are welcomed and encouraged. As I am a "newer" progra
 
 Stay tuned for updates as LanGAPP progresses towards providing a powerful and accessible real-time translation service for users worldwide.
 
-## YouTube Video Demonstration
+## YouTube Video Demonstration (Skip to 1:20 for demonstration)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hGzyyvre97w/0.jpg)](https://www.youtube.com/watch?v=hGzyyvre97w?t=80)
 
 
