@@ -32,6 +32,10 @@ Stay tuned for updates as LanGAPP progresses towards providing a powerful and ac
 - Once you find an 'id' value navigate to the 'myenv.env' file and change the 'SPEAKER_ID=' to that value (in this instance: 'SPEAKER_ID=3')
 - And save the file
 
+## Requirements:
+1st - /cd into the folder where your 'requirements.txt' is located
+2nd - Run this in the terminal: 'pip install -r requirements.txt'
+
 ## Current Pre-Requisites:
 (As this application furthers in development most of these will become either included, or done away with through work arounds)
 - Docker Running
