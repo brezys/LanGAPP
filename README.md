@@ -34,6 +34,7 @@ Stay tuned for updates as LanGAPP progresses towards providing a powerful and ac
 
 ## Requirements:
 1st - /cd into the folder where your 'requirements.txt' is located
+
 2nd - Run this in the terminal: 'pip install -r requirements.txt'
 
 ## Current Pre-Requisites:
