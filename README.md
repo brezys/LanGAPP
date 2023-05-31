@@ -19,7 +19,11 @@ Contributions and feedback are welcomed and encouraged. As I am a "newer" progra
 
 Stay tuned for updates as LanGAPP progresses towards providing a powerful and accessible real-time translation service for users worldwide.
 
-##Change voices (Japanese Only for now)
+## YouTube Video Demonstration
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hGzyyvre97w/0.jpg)](https://www.youtube.com/watch?v=hGzyyvre97w)
+
+
+## Change voices (Japanese Only for now)
 - Scroll down on the Voicevox official website until you see the characters: https://voicevox.hiroshiba.jp/
 - Listen to a bunch to find a voice you like, then copy their name: 'ずんだもん' for instance
 - Navigate to the directory and locate the 'JP_SpeechFiles.json' file
