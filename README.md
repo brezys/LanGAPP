@@ -19,6 +19,15 @@ Contributions and feedback are welcomed and encouraged. As I am a "newer" progra
 
 Stay tuned for updates as LanGAPP progresses towards providing a powerful and accessible real-time translation service for users worldwide.
 
+##Change voices (Japanese Only for now)
+- Scroll down on the Voicevox official website until you see the characters: https://voicevox.hiroshiba.jp/
+- Listen to a bunch to find a voice you like, then copy their name: 'ずんだもん' for instance
+- Navigate to the directory and locate the 'JP_SpeechFiles.json' file
+- Inside the file 'crtl+f' and paste for 'ずんだもん', and locate one of their many styles' id values (in this instance I chose the first style corresponding to an 'id' of 3)
+![image](https://github.com/brezys/LanGAPP/assets/108705036/360095dd-1267-4b15-9d12-d5e9b0ecd606)
+- Once you find an 'id' value navigate to the 'myenv.env' file and change the 'SPEAKER_ID=' to that value (in this instance: 'SPEAKER_ID=3')
+- And save the file
+
 ## Current Pre-Requisites:
 (As this application furthers in development most of these will become either included, or done away with through work arounds)
 - Docker Running
@@ -40,7 +49,7 @@ Stay tuned for updates as LanGAPP progresses towards providing a powerful and ac
 
 ![image](https://github.com/brezys/LanGAPP/assets/108705036/7a615c71-908b-4ccf-b05a-874c2aa4fff6)
 
-3rd - Go into the 'myenv.env' file and change the 'AUDIO_DEVICE_ID=' and after the '=' paste your audio device number (For instance: 92) 
+3rd - Go into the 'myenv.env' file and change the 'AUDIO_DEVICE_ID=' and after the '=' paste your audio device number directly after the '=' *no space* (For instance: AUDIO_DEVICE_ID=92) 
 
 ### Elevem labs API Key
 1st - Make a free account on Elevenlabs: https://beta.elevenlabs.io/speech-synthesis
@@ -48,4 +57,15 @@ Stay tuned for updates as LanGAPP progresses towards providing a powerful and ac
 2nd - Navigate to your 'Profile Settings' by clicking on your profile picture and then copy your API-Key (highlighted in blue)
 ![image](https://github.com/brezys/LanGAPP/assets/108705036/dff6ea7c-c3d7-4183-ac06-efca3293173a)
 
-3rd - Go into the 'myenv.env' file and change the 'ELEVENLAB_API_KEY=' and after the '=' paste your API-Key
+3rd - Go into the 'myenv.env' file and change the 'ELEVENLAB_API_KEY=' and after the '=' paste your API-Key directly after the '=' *no space*
+
+### DEEPL API Key
+1st - Make a free account on DEEPL to gain access to their DEEPL REST API: https://www.deepl.com/en/account/
+
+2nd - Navigate to your 'Authentication Key for DeepL API' and then copy your API-Key
+![image](https://github.com/brezys/LanGAPP/assets/108705036/ad7c619b-49ce-4233-9777-45941125d9e5)
+
+3rd - Go into the 'myenv.env' file and change the 'DEEPL_API_KEY=' and after the '=' paste your API-Key directly after the '=' *no space*
+
+### (Optional) Voicevox
+1st - Download and Install Voicevox here: https://voicevox.hiroshiba.jp/
