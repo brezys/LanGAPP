@@ -1,6 +1,6 @@
 # LanGAPP - Real-Time Natural Translation Service
 
-LanGAPP is an ongoing open-source personal project aimed at developing an efficient and real-time translation service using Python. By leveraging advanced neural networks, voice-to-text, and text-to-voice techniques, the language barrier between English and Spanish, as well as English and Japanese translations, has been not only squashed, but improved upon due to the familiar sounding cadence and intonation of the voices originating from the neural networks.
+LanGAPP is NO LONGER BEING DEVELOPED (since 2023), but is open-source personal project aimed at developing an efficient and real-time translation service using Python. By leveraging advanced neural networks, voice-to-text, and text-to-voice techniques, the language barrier between English and Spanish, as well as English and Japanese translations, has been not only squashed, but improved upon due to the familiar sounding cadence and intonation of the voices originating from the neural networks.
 
 ## Features:
 - Real-time translation: Achieve seamless and instant translation between English and Spanish, English and Japanese.
